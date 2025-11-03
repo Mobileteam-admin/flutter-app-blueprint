@@ -3,13 +3,13 @@ import 'package:flutter_base_project/core/constants/app_colors.dart';
 import 'package:flutter_base_project/core/services/http_service.dart';
 import 'package:flutter_base_project/core/utils/connectivity_checker.dart';
 import 'package:flutter_base_project/core/utils/local_storage.dart';
-import 'package:flutter_base_project/routes/app_pages.dart';
-import 'package:flutter_base_project/routes/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'core/routes/app_pages.dart';
+import 'core/routes/app_routes.dart';
 import 'core/utils/initial_binding.dart';
 import 'core/utils/local_data_service.dart';
 
@@ -19,7 +19,6 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await dotenv.load(fileName: '.env.$env');
   await _initializeServices();
-  // await Stripe.instance.applySettings();
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
       statusBarColor: Colors.transparent, // transparent or your custom color

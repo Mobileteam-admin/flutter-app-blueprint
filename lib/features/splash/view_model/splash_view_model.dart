@@ -3,8 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'dart:async';
 
+import '../../../core/routes/app_routes.dart';
 import '../../../core/utils/local_storage.dart';
-import '../../../routes/app_routes.dart';
 
 class SplashViewModel extends GetxController {
   @override

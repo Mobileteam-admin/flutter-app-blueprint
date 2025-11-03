@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_base_project/features/splash/view_model/splash_view_model.dart';
 
-import '../features/splash/view_model/splash_view_model.dart';
 import 'app_routes.dart';
-import 'package:flutter_base_project/features/splash/splash_binding.dart';
 import 'package:flutter_base_project/features/login/login_binding.dart';
 import 'package:flutter_base_project/features/login/view/login_view.dart';
 import 'package:flutter_base_project/features/home/home_binding.dart';
