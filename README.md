@@ -98,7 +98,7 @@ MVVM Architecture
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/your-org/flutter-getx-mvvm-template.git
+git clone https://github.com/Mobileteam-admin/flutter-app-blueprint.git
 
 ---------------------------------------------------------------------
 🧾 License
