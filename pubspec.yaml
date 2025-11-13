@@ -1,0 +1,75 @@
+name: flutter_base_project
+description: "A sample base project with getx mvvm"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0-323.0.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_dotenv: ^5.2.1
+  shared_preferences:
+  get: ^4.7.2
+  dio: ^5.8.0+1
+  connectivity_plus: ^6.1.4
+  intl: ^0.20.2
+  flutter_screenutil: ^5.9.3
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  yaml: ^3.1.2
+  args: ^2.4.2
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env.dev
+#    - .env.prod
+    - assets/icons/
+    - assets/fonts/
+    - assets/images/
+
+
+  #   - images/a_dot_ham.jpeg
+
+
+  # example:
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+    - family: AEDSymbolFont
+      fonts:
+        - asset: assets/fonts/AEDSymbolFont-Regular.ttf
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
